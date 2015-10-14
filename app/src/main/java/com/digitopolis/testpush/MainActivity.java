@@ -119,9 +119,9 @@ public class MainActivity extends AppCompatActivity {
                 os.close();
 
                 con.connect();
-                Log.e("DEBUG XXX", con.getResponseMessage().toString());
-                Log.e("DEBUG XXX", con.getRequestMethod());
-                Log.e("DEBUG XXX", con.getURL().toString());
+                Log.e("DEBUG Status", con.getResponseMessage().toString());
+                Log.e("DEBUG Request Method", con.getRequestMethod());
+                Log.e("DEBUG URL", con.getURL().toString());
                 //Get response
                 InputStream is = con.getInputStream();
                 BufferedReader rd = new BufferedReader(new InputStreamReader(is));
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
             Logger.getLogger("REGISTRATION").log(Level.INFO, regId);
             Log.e("Register ID", regId);
             textView.setText("Response : " + responseTest);
-            Log.e("Response", responseTest);
+//            Log.e("Response", responseTest);
         }
     }
 }

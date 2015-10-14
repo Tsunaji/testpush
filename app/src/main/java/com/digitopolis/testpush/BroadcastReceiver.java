@@ -25,15 +25,15 @@ public class BroadcastReceiver extends WakefulBroadcastReceiver {
 
         Bundle extras = intent.getExtras();
         String str = extras.getString("message");
-        createNotification(context, "Push notification", "GCM", str);
+        createNotification(context, "Push notification", str);
     }
 
-    public void createNotification(Context context,String s1,String s2,String s3){
+    public void createNotification(Context context,String s1,String s2){
         PendingIntent notificIntent = PendingIntent.getActivity(context, 0, new Intent(context, MainActivity.class), 0);
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context).setSmallIcon(R.mipmap.ic_launcher)
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(s1)
-                .setTicker(s2)
-                .setContentText(s3);
+                .setContentText(s2);
         mBuilder.setContentIntent(notificIntent);
 
         mBuilder.setDefaults(NotificationCompat.DEFAULT_SOUND);
