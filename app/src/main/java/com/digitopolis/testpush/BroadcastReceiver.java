@@ -29,19 +29,51 @@ public class BroadcastReceiver extends WakefulBroadcastReceiver {
     }
 
     public void createNotification(Context context,String s1,String s2){
-        PendingIntent notificIntent = PendingIntent.getActivity(context, 0, new Intent(context, MainActivity.class), 0);
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
+//        PendingIntent notificIntent = PendingIntent.getActivity(context, 0, new Intent(context, MainActivity.class), 0);
+//        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
+//                .setSmallIcon(R.mipmap.ic_launcher)
+//                .setContentTitle(s1)
+//                .setContentText(s2);
+//        mBuilder.setContentIntent(notificIntent);
+//
+//        mBuilder.setDefaults(NotificationCompat.DEFAULT_SOUND);
+//
+//        mBuilder.setAutoCancel(true);
+//
+//        NotificationManager mNotificationManager =
+//                (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
+//        mNotificationManager.notify(1, mBuilder.build());
+
+        // Instantiate a Builder object.
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(s1)
                 .setContentText(s2);
-        mBuilder.setContentIntent(notificIntent);
+// Creates an Intent for the Activity
+        Intent notifyIntent =
+                new Intent(context, OpenByPush.class);
+        notifyIntent.putExtra("parseValue",s2);
+// Sets the Activity to start in a new, empty task
+        notifyIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+// Creates the PendingIntent
+        PendingIntent notifyPendingIntent =
+                PendingIntent.getActivity(
+                        context,
+                        0,
+                        notifyIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
 
-        mBuilder.setDefaults(NotificationCompat.DEFAULT_SOUND);
-
-        mBuilder.setAutoCancel(true);
-
+// Puts the PendingIntent into the notification builder
+        builder.setContentIntent(notifyPendingIntent);
+// Notifications are issued by sending them to the
+// NotificationManager system service.
         NotificationManager mNotificationManager =
-                (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
-        mNotificationManager.notify(1, mBuilder.build());
+                (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+// Builds an anonymous Notification object from the builder, and
+// passes it to the NotificationManager
+        mNotificationManager.notify(1, builder.build());
+
     }
 }

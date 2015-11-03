@@ -41,6 +41,14 @@
             </intent-filter>
         </receiver>
         <service android:name=".IntentService" />
+
+        <activity
+            android:name=".OpenByPush"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true">
+        </activity>
+
     </application>
 
 </manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-d549de19b12dc583c9c92b246b485ac9c23198e7.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\classes-87dfae4a038efb3899bd3e2db4036c0c433ab348.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\classes-a5c0fb5914d65e545d47add2c60eb5fd8e9df9d1.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\classes-e7cca5910cb0b569261753be4812a0ef664b4f21.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\classes-ecb45c0868e9491b3ad5b7d5b689f4c4be81474c.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-855fe15805dd97cbfe5df61e5317fddab5a71411.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\classes-4928203927f3c4a4a0196dd216c6d191abca740a.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\classes-1ec50bd8fa9fedb0e2ecebfbfb6bd6aa0fb2e10f.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\classes-db6b513c838ead322d5e3c8739dd8ae38fad091f.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\classes-7d6ddddef13574dd524646b2ccf566d07b546e36.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\classes-2d3fd8ad0eaddeef24c12c50193c00c09372dd44.jar" />
+    </item>
+    <item
+        jar="D:\Work\Project SVN\testpush\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Work\Project SVN\testpush\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-76d058a58b08c5ececafb96e64cd2c421c97d13b.jar" />
+    </item>
+    <item
+        jar="D:\Work\TestPush\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\Work\TestPush\app\build\intermediates\pre-dexed\debug\classes-23b06235c67ba2322308e8538f91f9f5d563d91d.jar" />
+    </item>
+
+</items>
